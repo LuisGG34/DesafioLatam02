@@ -1,0 +1,91 @@
+/* Aplicar stylo a la imagenes   */
+
+img {
+    width: 600px; /* Ancho deseado */
+    height: 400px; /* Altura automática para mantener la proporción */
+    padding: 30px;
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 20px;
+}
+
+/* Aplicar stylo a la imagen principal banner*/
+.imagen_principal {
+    width: 1200px;
+    height: auto;
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 20px;
+}
+
+/* Aplicar stylo al footer*/
+.footer {
+    color:white;
+    background-color: blue;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+h1 {
+    color:blue;
+    text-align: center;
+    background-color: rgb(170, 170, 207);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    border: 30px;
+    padding: 30px;
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h3 {
+    color: red;
+    text-align: center;
+    background-color:  rgb(170, 170, 207);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    border: 30px;
+    padding: 20px;
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: solid;
+    color: blue;
+}
+
+main {
+    background-color: #f0f0f0; /* Color de fondo */
+    background-image: url('../img/fondo_utiles.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir todo el elemento main */
+    background-position: center; /* Posición de la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    color: #333; /* Color del texto */
+    padding: 20px; /* Espaciado interno opcional */
+}
+
+.contenedor_productos {
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px;
+    border: 30px;
+    padding: 30px;
+    background-color: rgb(170, 170, 207);
+    color: blue;
+    border: 2px solid rgb(51, 8, 151); /* Borde azulado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+
